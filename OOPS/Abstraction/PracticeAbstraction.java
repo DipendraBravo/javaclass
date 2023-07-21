@@ -11,15 +11,20 @@ class B extends A{
 
     @Override
     public void m2() {
-        System.out.println("M2 Method IMplementation");
+        System.out.println("M2 Method Implementation");
     }
 }
 
 public class PracticeAbstraction {
     public static void main(String[] args) {
-        //Abs class can have Abstract method and non abstract method
+        //Abs class can have Abstract method and nonAbstract method
         B b = new B();
         b.m2();
         b.m1();
+
+        //polymorphism
+        A a = new B();
+        a.m1();
+        a.m2();
     }
 }
