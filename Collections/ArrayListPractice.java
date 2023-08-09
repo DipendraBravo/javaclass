@@ -26,6 +26,25 @@ public class ArrayListPractice {
         list.add(30000);
         list.add(40000);
         list.addAll(0,arrayList);
-        System.out.print(list); //[1000, 10, 20, 200, 30, 400, 40, 600, 10, 10000, 20000, 30000, 40000]
+        System.out.println(list); //[1000, 10, 20, 200, 30, 400, 40, 600, 10, 10000, 20000, 30000, 40000]
+        System.out.println(list.size());
+        list.add(13,50000);
+        System.out.println(list);
+
+        //set for update the list
+        ArrayList<String> list1 = new ArrayList<String>();
+        list1.add("NameOne");
+        list1.add("NameTwo");
+        list1.add("NameThree");
+        list1.add("NameFour");
+        System.out.println(list1);//[NameOne, NameTwo, NameThree, NameFour]
+        System.out.println(list1.size());
+
+        list1.set(0,"Dipendra Tamang");
+        System.out.println(list1);//[Dipendra Tamang, NameTwo, NameThree, NameFour]
+        System.out.println(list1.size());
+
+
+
     }
 }
