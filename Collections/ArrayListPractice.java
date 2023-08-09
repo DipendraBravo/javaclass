@@ -44,6 +44,12 @@ public class ArrayListPractice {
         System.out.println(list1);//[Dipendra Tamang, NameTwo, NameThree, NameFour]
         System.out.println(list1.size());
 
+        //get method to fetch specific index value
+        System.out.println(list1.get(0));
+        System.out.println(list1.get(1));
+        System.out.println(list1.get(2));
+
+
 
 
     }
