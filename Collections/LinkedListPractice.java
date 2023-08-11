@@ -1,6 +1,8 @@
 package Collections;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class LinkedListPractice {
     public static void main(String[] args) {
@@ -23,5 +25,22 @@ public class LinkedListPractice {
 
         linkedList.add(5,500);
         System.out.println(linkedList);
+
+        //Null
+        List<String> arrayList = new ArrayList<>();
+        arrayList.add(null);
+        arrayList.add(null);
+        arrayList.add(null);
+        System.out.println(arrayList);
+
+        arrayList.add(0,null);
+        System.out.println(arrayList);
+
+        //null
+        LinkedList<String> list = new LinkedList<>();
+        list.add(null);
+        list.add(null);
+        list.add(null);
+        System.out.println(list);
     }
 }
