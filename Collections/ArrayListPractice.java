@@ -48,9 +48,15 @@ public class ArrayListPractice {
         System.out.println(list1.get(0));
         System.out.println(list1.get(1));
         System.out.println(list1.get(2));
+        //remove helps to remove 
+        System.out.println(list1.remove(2));
 
+        //adding list1 in list2 in arraylist
+        ArrayList<String> list2 = new ArrayList<String>(list1);
+        list2.add("Name Five");
+        list2.add("Name SIX");
 
-
+        System.out.println(list2);
 
     }
 }
