@@ -14,10 +14,19 @@ public class LinkedListPractice {
         linkedList.add(50);
         linkedList.add(10);
         linkedList.add(30);
-        System.out.println(linkedList);
+        //addFirst() method on linkedlist
+        linkedList.addFirst(100);
+        System.out.println(linkedList);//[100, 10, 20, 30, 40, 50, 10, 30]
 
-        linkedList.remove(0);
+        //removeFirst()method on linkedlist
+        linkedList.removeFirst();
         linkedList.remove(2);
+        //removeLast() method on linked list
+        linkedList.removeLast();
+
+        System.out.println(linkedList);
+        //addlast() method on linkedlist
+        linkedList.addLast(300);
         System.out.println(linkedList);
 
         linkedList.set(4,400);
@@ -42,5 +51,7 @@ public class LinkedListPractice {
         list.add(null);
         list.add(null);
         System.out.println(list);
+
+
     }
 }
