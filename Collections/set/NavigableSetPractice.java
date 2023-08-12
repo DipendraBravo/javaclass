@@ -22,6 +22,17 @@ public class NavigableSetPractice {
         System.out.println(treeset.ceiling(68));
         System.out.println(treeset.ceiling(71));
 
+        //greater than
+        System.out.println(treeset.higher(70));
+        //greater than, less than, equal too
+        System.out.println(treeset.floor(66));
+        //less than
+        System.out.println(treeset.lower(69));
+
+        System.out.println(treeset.pollFirst());
+
+        System.out.println(treeset.pollLast());
+
 
     }
 }
