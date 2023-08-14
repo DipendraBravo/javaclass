@@ -1,6 +1,9 @@
 package Collections.HashMap;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.Set;
 
 public class HashMapPractice {
     public static void main(String[] args) {
@@ -28,6 +31,14 @@ public class HashMapPractice {
         System.out.println(hashMap.remove(2,"NameTwoDuplicate"));
 
         System.out.println(hashMap);
+
+        //reading values only
+        Collection<String> values = hashMap.values();
+        System.out.println(values);
+
+        //reading keys only
+        Set<Integer> keyset = hashMap.keySet();
+        System.out.println(keyset);
 
         hashMap.clear();
         System.out.println(hashMap);
