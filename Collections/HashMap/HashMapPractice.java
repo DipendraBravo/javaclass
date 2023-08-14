@@ -16,6 +16,20 @@ public class HashMapPractice {
         hashMap.put(8,null);
         hashMap.put(null,null);//null as keu allowed only one time
         hashMap.put(null,null);
+
+        System.out.println(hashMap);
+
+        System.out.println(hashMap.size());
+
+        System.out.println(hashMap.remove(3));
+
+        System.out.println(hashMap);
+
+        System.out.println(hashMap.remove(2,"NameTwoDuplicate"));
+
+        System.out.println(hashMap);
+
+        hashMap.clear();
         System.out.println(hashMap);
 
 
