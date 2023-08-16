@@ -6,6 +6,8 @@ interface Properties{
 }
 public class FunctionalInterfacePractice implements Properties {
     public static void main(String[] args) {
+
+        //Inheritance
         FunctionalInterfacePractice functionalInterfacePractice  = new FunctionalInterfacePractice();
         functionalInterfacePractice.add(12,12);
 
